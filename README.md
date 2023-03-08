@@ -5,13 +5,10 @@
 
 ## Getting started
 
-The YOLOv3 (You Only Look Once) is a state-of-the-art, real-time object detection algorithm. The published model recognizes 80 different objects in images and videos. For more details, you can refer to this [paper](https://pjreddie.com/media/files/papers/YOLOv3.pdf).
-
+The YOLOv3 (You Only Look Once) is a state-of-the-art, real-time object detection algorithm. The published model recognizes 80 different objects in images and videos
 ## YOLOv3's architecture
 
 ![Imgur](assets/yolo-architecture.png)
-
-Credit: [Ayoosh Kathuria](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
 
 ## OpenCV Deep Neural Networks (dnn module)
 
