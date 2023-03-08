@@ -78,8 +78,4 @@ $ python yoloface.py --video samples/subway.mp4 --output-dir outputs/
 $ python yoloface.py --src 1 --output-dir outputs/
 ```
 
-## Sample outputs
-
-![Imgur](assets/outside_000001_yoloface.jpg)
-
 
