@@ -56,7 +56,7 @@ $ pip install -r requirements.txt
 $ git clone https://github.com/FrankFomekong/preventiveSecurity/
 ```
 
-* For face detection, you should download the pre-trained YOLOv3 weights file which trained on the [WIDER FACE: A Face Detection Benchmark](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/index.html) dataset from this [link](https://drive.google.com/file/d/1-36p9DWxwq-KP3uV9_hfrL1j-C6lk-qL/view?usp=sharing) and place it in the `model-weights/` directory.
+* For face detection, you should download the pre-trained YOLOv3 weights file which trained on the [WIDER FACE: A Face Detection Benchmark](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/index.html) dataset from these [link](https://drive.google.com/file/d/1-36p9DWxwq-KP3uV9_hfrL1j-C6lk-qL/view?usp=sharing)  [for gpu](https://drive.google.com/file/d/1-EPjQs1s8wghjU8ufBc8eS0m54mYxdKs/view?usp=sharing) and place them in the `model-weights/` directory.
 
 * Run the following command:
 
