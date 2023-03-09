@@ -36,7 +36,7 @@ parser.add_argument('--image', type=str, default='',
                     help='path to image file')
 parser.add_argument('--video', type=str, default='',
                     help='path to video file')
-parser.add_argument('--src', type=int, default=0,
+parser.add_argument('--src', type=str, default=0,
                     help='source of the camera')
 parser.add_argument('--output-dir', type=str, default='outputs/',
                     help='path to the output directory')
