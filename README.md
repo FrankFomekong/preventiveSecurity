@@ -33,14 +33,14 @@ There are many ways to install `virtual environment (virtualenv)`, see the [Pyth
 $ pip install virtualenv
 ```
 
-- For Mac
-```bash
+- For windows
+```cmd
 $ pip install --upgrade virtualenv
 ```
 
-Create a Python 3.6 virtual environment for this project and activate the virtualenv:
+Create a Python >= 3.6 virtual environment for this project and activate the virtualenv:
 ```bash
-$ virtualenv -p python3.6 yoloface
+$ virtualenv -p python3.X yoloface
 $ source ./yoloface/bin/activate
 ```
 
@@ -53,7 +53,7 @@ $ pip install -r requirements.txt
 
 * Clone this repository
 ```bash
-$ git clone https://github.com/sthanhng/yoloface
+$ git clone https://github.com/FrankFomekong/preventiveSecurity/
 ```
 
 * For face detection, you should download the pre-trained YOLOv3 weights file which trained on the [WIDER FACE: A Face Detection Benchmark](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/index.html) dataset from this [link](https://drive.google.com/file/d/1xYasjU52whXMLT5MtF7RCPQkV66993oR/view?usp=sharing) and place it in the `model-weights/` directory.
@@ -73,6 +73,7 @@ $ python yoloface.py --video samples/subway.mp4 --output-dir outputs/
 >**webcam**
 ```bash
 $ python yoloface.py --src 1 --output-dir outputs/
-```
+
+note that you can replace '1' with the url of video stream 
 
 
