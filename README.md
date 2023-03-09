@@ -13,6 +13,7 @@
 * run `pip install -r requirements.txt`
 * run `python3 manage.py makemigrations`
 * run `python3 manage.py migrate`
+* run `python3 manage.py createsuperuser` and register ourself as admin
 * run `python3 manage.py runserver 8080`
 
 ### Test API
